@@ -47,3 +47,6 @@ inoremap <c-l> <Nop>
 
 " ctrl+e/ctrl+d to move viewport up/down
 nnoremap <c-d> <c-y>
+
+" highlight current line
+set cursorline
