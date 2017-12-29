@@ -1,5 +1,5 @@
 # .bashrc
-
+# added this 2017/12/29
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
