@@ -1,3 +1,4 @@
+" final update today
 " use jj to enter normal mode 
 inoremap jj <Esc>
 
