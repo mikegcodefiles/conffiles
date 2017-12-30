@@ -1,5 +1,3 @@
-" added this 2017/12/29
-
 " use jj to enter normal mode 
 inoremap jj <Esc>
 
@@ -50,3 +48,4 @@ nnoremap <c-d> <c-y>
 
 " highlight current line
 set cursorline
+hi CursorLine cterm=none ctermbg=233
