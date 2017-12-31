@@ -19,3 +19,6 @@ export PROMPT_COMMAND='echo -ne "\033]0;${USER} @ ${HOSTNAME} - ${PWD}\007"'
 # run vimx by default ( enable Vim-X11 features )
 alias vi='vimx'
 alias vim='vimx'
+
+# use vi style keybinds
+set -o vi
