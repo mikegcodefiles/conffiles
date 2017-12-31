@@ -1,0 +1,18 @@
+# Use Vi, not Emacs, style editing
+set editing-mode vi
+
+# Show all completions as soon as I press tab, even if there's more than one
+set show-all-if-ambiguous on
+# Ignore case
+set completion-ignore-case on
+
+# normal/command mode customs
+set keymap vi-command
+# type 'p' to redo last command w/ 'sudo' in front
+"p": "i sudo !!\r"
+
+# insert mode customs
+set keymap vi-insert
+# use 'jj' to enter normal/command mode
+"jj": "\e" 
+"j": self-insert
